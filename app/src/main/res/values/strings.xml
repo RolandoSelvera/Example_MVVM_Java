@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Example MVVM Java</string>
+    <string name="text_title">Citas de Libros</string>
+</resources>

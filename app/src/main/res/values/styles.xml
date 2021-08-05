@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_style_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/questrial</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="title_style" parent="text_style_common">
+        <item name="android:textSize">@dimen/text_24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="quote_style" parent="text_style_common">
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:textSize">@dimen/text_24</item>
+    </style>
+
+    <style name="book_style" parent="text_style_common">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="author_style" parent="text_style_common">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">@dimen/dimen_24</item>
+        <item name="android:layout_height">@dimen/dimen_24</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_32</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16</item>
+    </style>
+</resources>
