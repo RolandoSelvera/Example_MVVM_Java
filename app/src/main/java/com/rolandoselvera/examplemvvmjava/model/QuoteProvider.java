@@ -11,7 +11,7 @@ public class QuoteProvider {
     // Devuelve una cita de forma aleatoria:
     public static QuoteModel random() {
         int min = 0;
-        int max = 19;
+        int max = 20;
         int position;
 
         Random random = new Random();
